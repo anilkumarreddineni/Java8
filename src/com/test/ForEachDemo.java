@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * Note:forEach is located in the Iterable an Collection extends Iterable.
+ * @author anilkumar.r
+ *
+ */
 public class ForEachDemo
 {
 	
