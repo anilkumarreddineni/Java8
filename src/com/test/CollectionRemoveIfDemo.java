@@ -19,7 +19,7 @@ public class CollectionRemoveIfDemo {
         fruits.add("Grapes");
         fruits.add("Apple");
         fruits.add("Guava");
-        fruits.removeIf(fruit->fruit.length()==5);
+        fruits.removeIf(fruit->fruit.equals("Apple"));
         System.out.println(fruits);
         
 	}

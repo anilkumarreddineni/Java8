@@ -12,7 +12,7 @@ import java.util.List;
  * @author anilkumar.r
  *
  */
-public class CollectionForEachRemainingDemo {
+public class IteratorForEachRemainingDemo {
 	
 	public static void main(String[] args) {
 		List<String> fruits = new ArrayList<String>();
