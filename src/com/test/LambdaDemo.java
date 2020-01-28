@@ -14,7 +14,8 @@ public class LambdaDemo
         names.add("Aditya");
         names.add("Steve");        
         /**
-         * Using Lambda(name less function(left(parameter) right(code inside a method)) as the Collection is a functional interface.
+         * Using Lambda(name less function(left(parameter) right(code inside a method)) as the 
+         * Collection is a functional interface.
          */
          // names.forEach(fruit->System.out.println(fruit.charAt(0)));
           

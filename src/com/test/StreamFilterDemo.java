@@ -1,7 +1,8 @@
 package com.test;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.List;import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class StreamFilterDemo
 {
@@ -16,9 +17,8 @@ public class StreamFilterDemo
         names.add("Grapes");
         names.add("Strawberry");
         names.add("Guava");
-        List<String> newFruitList=new ArrayList<String>();
-        names.stream().filter(fruit->fruit.length()==5).forEach(fruit->newFruitList.add(fruit));
-        System.out.println("Fruits which have the five Chracters is "+newFruitList);
+        names.add("Guava");
+        System.out.println(names.stream().collect(Collectors.toSet()));
 	}
 
     public static void main(String[] args)

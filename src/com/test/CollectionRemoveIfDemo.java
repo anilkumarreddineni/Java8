@@ -19,7 +19,7 @@ public class CollectionRemoveIfDemo {
         fruits.add("Grapes");
         fruits.add("Apple");
         fruits.add("Guava");
-        fruits.removeIf(fruit->fruit.equals("Apple"));
+        fruits.removeIf(fruit->fruit.charAt(1)=='p');
         System.out.println(fruits);
         
 	}

@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * forEachRemaing is used to implement a particalar logic for each and every element in the Collection.
+ * forEachRemaing is used to implement a particular logic for each and every element in the Collection.
  * It accepts a Consumer
  * Advantage:Instead of iterating overing the collection and the applying the logic to the elements with out changing the structure
  * of the Collection we can simply use this.
