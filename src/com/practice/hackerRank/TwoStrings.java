@@ -1,5 +1,10 @@
 package com.practice.hackerRank;
 
+/**
+ * Program to find the same substring in between two strings and that sub string might be a character.
+ * @author anilkumar.r
+ *
+ */
 public class TwoStrings {
 	
 	   static boolean find(String s1,String s2) {

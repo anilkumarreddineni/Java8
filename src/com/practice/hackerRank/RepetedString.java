@@ -1,5 +1,10 @@
 package com.practice.hackerRank;
 
+/**
+ * find the count of a character from the string which is repeated for n number of times.
+ * @author anilkumar.r
+ *
+ */
 public class RepetedString {
 
 	static long findCount(String s,int n) {

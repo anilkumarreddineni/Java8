@@ -1,6 +1,10 @@
 package com.practice.hackerRank;
 import java.util.Scanner;
-
+/**
+ * find the min and max sum of four elements in a given array of five elements.
+ * @author anilkumar.r
+ *
+ */
 public class MinMax {
 
     
